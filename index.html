@@ -31,7 +31,9 @@
                 'title-primary': '#179800',
                'text-primary': '#111111',
                'background-secondary': '#EFEBE3',
-              }
+               'btn-color': '#63B76D',
+               'btn1-color': '#2A4D97',
+              } 
             }
           }
         }
@@ -94,7 +96,7 @@
   <section class="banner">
     <div class="text-center mx-auto">
     <div class="mt-20 lg:max-w-3xl mx-auto">
-      <h2 class="font-semibold text-text-primary text-3xl lg:text-5xl">
+      <h2 class="font-semibold text-text-primary text-3xl lg:text-5xl animate-bounce">
         Freshness 
         <span class="text-title-primary">You Can Count On</span>, Prices You’ll Love!
       </h2>
@@ -111,8 +113,11 @@
 
     </header>
 <!-- services section start here -->
- <section class="service-sec">
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 lg:max-w-screen-xl lg:mx-auto mt-8 lg:mt-56 mb-12 lg:mb-36">
+ <section class="service-sec lg:pt-32">
+  <h2 class="text-title-primary font-bold text-3xl 
+  lg:text-4xl  lg:max-w-screen-xl mx-auto pt-6 pl-2">Services</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 lg:max-w-screen-xl lg:mx-auto mt-8  mb-12 lg:mb-36">
+    
     <!-- Card 1 -->
     <div class="card bg-background-secondary w-80 lg:w-96 mx-auto">
       <figure class="px-32 pt-8 ">
@@ -164,25 +169,25 @@
               
  <section class="bg-background-secondary lg:mb-32">
   <h2 class="text-title-primary font-bold text-3xl 
-  lg:text-4xl mb-6 lg:max-w-screen-xl mx-auto ">Popular Products</h2>
+  lg:text-4xl mb-6 lg:max-w-screen-xl mx-auto pt-32">Popular Products</h2>
 
   <!-- Product Grid -->
   <div class="grid grid-cols-2 md:grid-cols-2 
-  lg:grid-cols-4 gap-4 lg:gap-6 lg:max-w-screen-xl mx-auto">
+  lg:grid-cols-4 gap-4 lg:gap-6 lg:max-w-screen-xl mx-auto pb-32">
     
     <!-- Left Discount Section -->
-    <div class="lg:max-w-96 bg-gradient-to-r from-green-400 to-white 
-    rounded-lg p-6  col-span-2 lg:col-span-1 lg:row-span-3 flex flex-col justify-between mx-auto ">
+    <div class="lg:max-w-96 bg-gradient-to-r from-[#53DB3A] to-[#FFFFFF]
+    rounded-lg px-6 pt-6  col-span-2 lg:col-span-1 lg:row-span-3 flex flex-col justify-between mx-auto ">
       <div>
-        <h2 class="text-white text-2xl 
+        <h2 class="text-white text-base lg:text-xl 
         font-extrabold">30% off</h2>
         <p class="text-text-primary 
-        text-lg mt-2">Discover a world of treats, toys, and essentials 
+        text-base mt-1">Discover a world of treats, toys, and essentials 
         handpicked for you.</p>
-        <button class="mt-4 text-xl bg-white text-text-primary rounded-lg px-5 py-3 font-semibold">Buy Now</button>
+        <button class="mt-4 text-xl bg-white text-text-primary rounded-lg px-5 py-1 font-semibold">Buy Now</button>
       </div>
       <div>
-        <img src="image/vegetable-offer.png" alt="Discount Offer">
+        <img src="image/vegetable-offer.png" alt="">
       </div>
     </div>
 
@@ -195,8 +200,47 @@
         </div>
          <div class="ml-2 ">
           <div class="text-yellow-500">⭐ 4.5</div>
-          <h3 class="text-text-primary font-semibold mt-2 text-base ">Onion 1 KG</h3>
-          <p class="text-text-primary text-base ">$39.99</p>
+          <h3 class="text-text-primary font-semibold mt-2 text-xs lg:text-base ">Onion 1 KG</h3>
+          <p class="text-text-primary text-xs lg:text-base ">$39.99</p>
+          
+         </div>
+  
+      </div>
+
+      <div class="bg-white rounded-lg  p-4 w-32 lg:w-64  lg:h-28 flex">
+        <div>
+          <img src="image/Group 17.png" alt=" " class="w-full">
+        </div>
+         <div class="ml-2 ">
+          <div class="text-yellow-500">⭐ 4.5</div>
+          <h3 class="text-text-primary font-semibold mt-2 text-xs lg:text-base ">Onion 1 KG</h3>
+          <p class="text-text-primary text-xs lg:text-base">$39.99</p>
+          
+         </div>
+  
+      </div>
+
+      <div class="bg-white rounded-lg  p-4 w-32 lg:w-64  lg:h-28 flex">
+        <div>
+          <img src="image/Group 18.png" alt=" " class="w-full">
+        </div>
+         <div class="ml-2 ">
+          <div class="text-yellow-500">⭐ 4.5</div>
+          <h3 class="text-text-primary font-semibold mt-2 text-xs lg:text-base ">Onion 1 KG</h3>
+          <p class="text-text-primary text-xs lg:text-base ">$39.99</p>
+          
+         </div>
+  
+      </div>
+
+      <div class="bg-white rounded-lg  p-4 w-32 lg:w-64  lg:h-28 flex">
+        <div>
+          <img src="image/Group 17.png" alt=" " class="w-full">
+        </div>
+         <div class="ml-2 ">
+          <div class="text-yellow-500">⭐ 4.5</div>
+          <h3 class="text-text-primary font-semibold mt-2 text-xs lg:text-base ">Onion 1 KG</h3>
+          <p class="text-text-primary text-xs lg:text-base ">$39.99</p>
           
          </div>
   
@@ -208,8 +252,21 @@
         </div>
          <div class="ml-2 ">
           <div class="text-yellow-500">⭐ 4.5</div>
-          <h3 class="text-text-primary font-semibold mt-2 text-base ">Onion 1 KG</h3>
-          <p class="text-text-primary text-base ">$39.99</p>
+          <h3 class="text-text-primary font-semibold mt-2 text-xs lg:text-base ">Onion 1 KG</h3>
+          <p class="text-text-primary text-xs lg:text-base ">$39.99</p>
+          
+         </div>
+  
+      </div>
+
+      <div class="bg-white rounded-lg  p-4 w-32 lg:w-64  lg:h-28 flex">
+        <div>
+          <img src="image/Group 17.png" alt=" " class="w-full">
+        </div>
+         <div class="ml-2 ">
+          <div class="text-yellow-500">⭐ 4.5</div>
+          <h3 class="text-text-primary font-semibold mt-2 text-xs lg:text-base ">Onion 1 KG</h3>
+          <p class="text-text-primary text-xs lg:text-base ">$39.99</p>
           
          </div>
   
@@ -221,8 +278,8 @@
         </div>
          <div class="ml-2 ">
           <div class="text-yellow-500">⭐ 4.5</div>
-          <h3 class="text-text-primary font-semibold mt-2 text-base ">Onion 1 KG</h3>
-          <p class="text-text-primary text-base ">$39.99</p>
+          <h3 class="text-text-primary font-semibold mt-2 text-xs lg:text-base ">Onion 1 KG</h3>
+          <p class="text-text-primary text-xs lg:text-base ">$39.99</p>
           
          </div>
   
@@ -230,77 +287,25 @@
 
       <div class="bg-white rounded-lg  p-4 w-32 lg:w-64  lg:h-28 flex">
         <div>
-          <img src="image/Group 16.png" alt=" " class="w-full">
+          <img src="image/Group 17.png" alt=" " class="w-full">
         </div>
          <div class="ml-2 ">
           <div class="text-yellow-500">⭐ 4.5</div>
-          <h3 class="text-text-primary font-semibold mt-2 text-base ">Onion 1 KG</h3>
-          <p class="text-text-primary text-base ">$39.99</p>
+          <h3 class="text-text-primary font-semibold mt-2 text-xs lg:text-base lg:text-base lg:text-base ">Onion 1 KG</h3>
+          <p class="text-text-primary text-xs lg:text-base ">$39.99</p>
           
          </div>
   
       </div>
 
-      <div class="bg-white rounded-lg  p-4 w-32 lg:w-64  lg:h-28 flex">
-        <div>
-          <img src="image/Group 16.png" alt=" " class="w-full">
-        </div>
-         <div class="ml-2 ">
-          <div class="text-yellow-500">⭐ 4.5</div>
-          <h3 class="text-text-primary font-semibold mt-2 text-base ">Onion 1 KG</h3>
-          <p class="text-text-primary text-base ">$39.99</p>
-          
-         </div>
-  
-      </div>
-
-      <div class="bg-white rounded-lg  p-4 w-32 lg:w-64  lg:h-28 flex">
-        <div>
-          <img src="image/Group 16.png" alt=" " class="w-full">
-        </div>
-         <div class="ml-2 ">
-          <div class="text-yellow-500">⭐ 4.5</div>
-          <h3 class="text-text-primary font-semibold mt-2 text-base ">Onion 1 KG</h3>
-          <p class="text-text-primary text-base ">$39.99</p>
-          
-         </div>
-  
-      </div>
-
-      <div class="bg-white rounded-lg  p-4 w-32 lg:w-64  lg:h-28 flex">
-        <div>
-          <img src="image/Group 16.png" alt=" " class="w-full">
-        </div>
-         <div class="ml-2 ">
-          <div class="text-yellow-500">⭐ 4.5</div>
-          <h3 class="text-text-primary font-semibold mt-2 text-base ">Onion 1 KG</h3>
-          <p class="text-text-primary text-base ">$39.99</p>
-          
-         </div>
-  
-      </div>
-
-      <div class="bg-white rounded-lg  p-4 w-32 lg:w-64  lg:h-28 flex">
-        <div>
-          <img src="image/Group 16.png" alt=" " class="w-full">
-        </div>
-         <div class="ml-2 ">
-          <div class="text-yellow-500">⭐ 4.5</div>
-          <h3 class="text-text-primary font-semibold mt-2 text-base ">Onion 1 KG</h3>
-          <p class="text-text-primary text-base ">$39.99</p>
-          
-         </div>
-  
-      </div>
-
-      <div class="bg-white rounded-lg  p-4 w-32 lg:w-64  lg:h-28 flex">
+      <div class="bg-white rounded-lg  p-4 w-32 lg:w-64  lg:h-28  hidden lg:flex">
         <div>
           <img src="image/Group 16.png" alt=" " class="contain">
         </div>
          <div class="ml-2 ">
           <div class="text-yellow-500">⭐ 4.5</div>
-          <h3 class="text-text-primary font-semibold mt-2 text-base ">Onion 1 KG</h3>
-          <p class="text-text-primary text-base ">$39.99</p>
+          <h3 class="text-text-primary font-semibold mt-2 text-xs lg:text-base ">Onion 1 KG</h3>
+          <p class="text-text-primary text-xs lg:text-base">$39.99</p>
           
          </div>
   
@@ -315,8 +320,144 @@
 
   </div>
 </section>
+<!-- offer section -->
+<section class="offer-sec">
+  <h2 class="text-title-primary font-semibold text-3xl 
+  lg:text-2xl mb-6 lg:max-w-screen-xl mx-auto mt-12 mb-4">Arrival & Offers</h2>
 
 
+  <div class="lg:max-w-screen-xl lg:mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 ">
+
+    <div class=" max-w-xs lg:max-w-3xl bg-[#115414] rounded-3xl flex ">
+      <div>
+        <img src="image/dawat-logo.png" alt="" class=" lg:mx-8 mb-8 mt-12">
+    
+        <button class="btn mx-1 lg:ml-7 bg-btn-color border-none mb-6">Cook Exotic Dishes</button>
+
+        <h3 class="text-white text-base lg:text-4xl font-normal mx-1 lg:ml-7 mb-10">UP to <span class="font-extrabold">20% OFF</span></h3>
+      </div>
+
+     <div>
+        <img src="image/dawat-mock-up.png" alt="" class=" my-16 lg:mt-12 w-full ">
+      </div>
+    </div>
+
+
+
+    <div class="max-w-xs lg:max-w-lg bg-[#102861] rounded-3xl flex ">
+      <div>
+        <img src="image/india-gate-logo.png" alt=""  class=" lg:mx-7 mt-12">
+        
+        <button class="btn mx-1 lg:mx-6 bg-btn1-color border-none mb-6">World’s No.1 Rice</button>
+
+        <h3 class="text-white text-base lg:text-4xl font-normal mx-1 lg:ml-6 mb-10">UP to <span class="font-extrabold">40% OFF</span></h3>
+      </div>
+      <div> 
+        <img src="image/india-gate-mock-up.png" alt="" class=" my-16 lg:mt-12 w-full ">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- All organic Vegetable section start here -->
+<section class="organic-sec lg:pt-32">
+  <h2 class="text-title-primary font-bold text-3xl 
+  lg:text-4xl  lg:max-w-screen-xl mx-auto pt-6 pl-2">Available organic Foods</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 lg:max-w-screen-xl lg:mx-auto mt-8  lg:mb-12 ">
+    
+    <!-- Card 1 -->
+    <div class="card bg-background-secondary w-80 lg:w-96 mx-auto">
+      <figure class="px-32 pt-8 ">
+        <img
+          src="image/vegetable-2.png"
+          alt=""
+          class="rounded-xl" />
+      </figure>
+      <div class="card-body items-center text-center px-6 lg:px-8">
+        <h2 class="card-title font-semibold text-xl lg:text-2xl">Organic Vegetable</h2>
+        <p class="font-base lg:font-xl text-text-primary">Our 24 services ensure fresh vegetable products, quality control, delivery, packaging, and customer satisfaction.</p>
+        
+      </div>
+    </div>
+  
+    <!-- Card 2 -->
+    <div class="card bg-background-secondary w-80 lg:w-96 mx-auto">
+      <figure class="px-32 pt-8 ">
+        <img
+          src="image/vegetable-busket.png"
+          alt=""
+          class="rounded-xl" />
+      </figure>
+      <div class="card-body items-center text-center px-6 lg:px-8">
+        <h2 class="card-title font-semibold text-xl lg:text-2xl">Grocery</h2>
+        <p class="font-base lg:font-xl text-text-primary">Fresh vegetables delivered fast, ensuring quality, freshness, and convenience straight to your doorstep.</p>
+       
+      </div>
+    </div>
+  
+    <!-- Card 3 -->
+    <div class="card bg-background-secondary w-80 lg:w-96 mx-auto">
+      <figure class="px-32 pt-8 ">
+        <img
+          src="image/vegetable.jpg"
+          alt=""
+          class="rounded-xl " />
+      </figure>
+      <div class="card-body items-center text-center px-6 lg:px-8">
+        <h2 class="card-title font-semibold text-xl lg:text-2xl">Organic Fruits </h2>
+        <p class="font-base lg:font-xl text-text-primary">Fresh vegetable products provide essential nutrients, support digestion, boost immunity, and promote overall health.</p>
+        
+      </div>
+    </div>
+  </div>  
+ </section>
+
+ <!-- subscribe section -->
+  <section class="sub-sec  max-w-xs lg:max-w-screen-xl bg-background-secondary mx-auto rounded-3xl relative top-32 lg:top-52">
+  <div class="flex flex-col lg:flex-row lg:gap-32">
+    <div class="my-4 lg:my-12 ">
+      <img src="image/vegetable-busket.png" alt="">
+    </div>
+    <div class="my-5 lg:my-20 max-w-xs">
+      <h3 class="lg:text-text-primary text-title-primary lg:text-4xl text-base font-semibold text-center lg:text-left">Get Grocery News!</h3>
+      <p class=" text-center lg:text-left text-text-primary text-base lg:text-xl font-normal mt-5">Exclusive training tips, ticks, product deals and more.</p>
+      <label class="input input-bordered flex items-center gap-2 mt-9 text-center lg:text-left">
+       
+        <input type="text" class="grow " placeholder="Enter Email" />
+      </label>
+      <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg mt-9 bg-title-primary text-center lg:text-left mx-28 lg:mx-0 lg:mx-0 pt-5 pb-6 lg:p-2">Responsive</button>
+      
+      
+
+
+    </div>
+  </div>
+</section>
+
+<!-- footer section code start here -->
+
+
+<footer class="footer bg-title-primary text-neutral-content pl-8 lg:px-32 pt-40 lg:pt-64 lg:pb-12">
+  <nav class="lg:mx-w-xl">
+<img src="image/logo-footer.png" alt="">
+<p>Discover a world of treats, toys, <br>and essentials handpicked for your furry <br>friends</p>
+  </nav>
+  <nav >
+    <a class="link link-hover">Product</a>
+    <a class="link link-hover">Services</a>
+    <a class="link link-hover">Contact us</a>
+  </nav>
+  <nav>
+    <h6 class="footer-title">Follow Us</h6>
+<ul class="flex gap-3">
+  <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+  <li> <i class="fa fa-instagram" aria-hidden="true"></i></li>
+  <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+  <li> <i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+</ul>
+    
+  </nav>
+</footer>
 
 
 
