@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font awesome icon link add here -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+
+    <!-- font link add here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+<style>
+.font-sora {
+  font-family: "Sora", serif;
+}
+</style>
+
+    <!-- daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind script -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'title-primary': '#179800',
+               'text-primary': '#111111',
+               'background-secondary': '#EFEBE3',
+              }
+            }
+          }
+        }
+      </script>
+    <title>Nature Patter</title>
+</head>
+<body class="font-sora">
+   <!-- header section code start here -->
+    <main class="max-w-screen-2xl mx-auto">
+
+<header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
+        <!-- nav section -->
+    <div class="navbar  lg:px-12 lg:py-8 lg:border-none border-b border-title-primary ">
+      <div class="navbar-start">
+        <a class=" text-xl">
+          <img src="image/logo-header.png" alt="" class="w-full">
+              </a>  
+            </div>
+          
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Product</a></li>
+                <li><a> Services</a></li>
+                <li><a> Contact us</a></li>
+              </ul>
+            </div>
+          
+            <div class="navbar-end">
+            <i class="fa fa-search hidden lg:flex " aria-hidden="true"></i>
+            <i class="fa fa-shopping-cart hidden lg:flex ml-4" aria-hidden="true"></i>
+              <a class="btn hidden lg:flex ml-4 text-text-primary font-normal rounded-lg bg-white border-title-primary">Login</a>
+              <a class="btn hidden lg:flex ml-3 text-white rounded-lg bg-title-primary">Register</a>
+          
+              <div class="dropdown dropdown-end">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ml-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li class="text-center text-text-primary"><a>Product</a></li>
+                  <li class="text-center text-text-primary"><a>Services</a></li>
+                  <li class="text-center text-text-primary"><a>Contact us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- banner section code start here -->
+  <section class="banner">
+    <div class="text-center mx-auto">
+    <div class="mt-20 lg:max-w-3xl mx-auto">
+      <h2 class="font-semibold text-text-primary text-3xl lg:text-5xl">
+        Freshness 
+        <span class="text-title-primary">You Can Count On</span>, Prices You’ll Love!
+      </h2>
+        <p class="mt-4 lg:mt-8 text-text-primary font-normal text-base lg:text-xl">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+            </div>
+
+            <div class="max-w-md lg:max-w-screen-lg mx-auto lg:mx-auto ">
+              <img src="image/hero-vegetables.png" alt="" class="w-full">
+            </div>
+          </div>
+           </section>
+
+
+
+    </header>
+<!-- services section start here -->
+ <section class="service-sec">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 lg:max-w-screen-xl lg:mx-auto mt-8 lg:mt-56 mb-12 lg:mb-36">
+    <!-- Card 1 -->
+    <div class="card bg-background-secondary w-80 lg:w-96 mx-auto">
+      <figure class="px-32 pt-8 ">
+        <img
+          src="image/service.png"
+          alt=""
+          class="rounded-xl" />
+      </figure>
+      <div class="card-body items-center text-center px-6 lg:px-8">
+        <h2 class="card-title font-semibold text-xl lg:text-2xl">24/7 Services</h2>
+        <p class="font-base lg:font-xl text-text-primary">Our 24 services ensure fresh vegetable products, quality control, delivery, packaging, and customer satisfaction.</p>
+        
+      </div>
+    </div>
+  
+    <!-- Card 2 -->
+    <div class="card bg-background-secondary w-80 lg:w-96 mx-auto">
+      <figure class="px-32 pt-8 ">
+        <img
+          src="image/delivery.png"
+          alt=""
+          class="rounded-xl" />
+      </figure>
+      <div class="card-body items-center text-center px-6 lg:px-8">
+        <h2 class="card-title font-semibold text-xl lg:text-2xl">Fast Delivery</h2>
+        <p class="font-base lg:font-xl text-text-primary">Fresh vegetables delivered fast, ensuring quality, freshness, and convenience straight to your doorstep.</p>
+       
+      </div>
+    </div>
+  
+    <!-- Card 3 -->
+    <div class="card bg-background-secondary w-80 lg:w-96 mx-auto">
+      <figure class="px-32 pt-8 ">
+        <img
+          src="image/healthy.png"
+          alt=""
+          class="rounded-xl " />
+      </figure>
+      <div class="card-body items-center text-center px-6 lg:px-8">
+        <h2 class="card-title font-semibold text-xl lg:text-2xl">Healthy Products</h2>
+        <p class="font-base lg:font-xl text-text-primary">Fresh vegetable products provide essential nutrients, support digestion, boost immunity, and promote overall health.</p>
+        
+      </div>
+    </div>
+  </div>  
+ </section>
+
+  <!-- Popular Products Section Code start here-->
+              
+ <section class="bg-background-secondary lg:mb-32">
+  <h2 class="text-title-primary font-bold text-3xl 
+  lg:text-4xl mb-6 lg:max-w-screen-xl mx-auto ">Popular Products</h2>
+
+  <!-- Product Grid -->
+  <div class="grid grid-cols-2 md:grid-cols-2 
+  lg:grid-cols-4 gap-4 lg:gap-6 lg:max-w-screen-xl mx-auto">
+    
+    <!-- Left Discount Section -->
+    <div class="lg:max-w-96 bg-gradient-to-r from-green-400 to-white 
+    rounded-lg p-6  col-span-2 lg:col-span-1 lg:row-span-3 flex flex-col justify-between mx-auto ">
+      <div>
+        <h2 class="text-white text-2xl 
+        font-extrabold">30% off</h2>
+        <p class="text-text-primary 
+        text-lg mt-2">Discover a world of treats, toys, and essentials 
+        handpicked for you.</p>
+        <button class="mt-4 text-xl bg-white text-text-primary rounded-lg px-5 py-3 font-semibold">Buy Now</button>
+      </div>
+      <div>
+        <img src="image/vegetable-offer.png" alt="Discount Offer">
+      </div>
+    </div>
+
+    <!-- Product Cards -->
+ 
+
+      <div class="bg-white rounded-lg  p-4 w-32 lg:w-64  lg:h-28 flex">
+        <div>
+          <img src="image/Group 16.png" alt=" " class="w-full">
+        </div>
+         <div class="ml-2 ">
+          <div class="text-yellow-500">⭐ 4.5</div>
+          <h3 class="text-text-primary font-semibold mt-2 text-base ">Onion 1 KG</h3>
+          <p class="text-text-primary text-base ">$39.99</p>
+          
+         </div>
+  
+      </div>
+
+      <div class="bg-white rounded-lg  p-4 w-32 lg:w-64  lg:h-28 flex">
+        <div>
+          <img src="image/Group 16.png" alt=" " class="w-full">
+        </div>
+         <div class="ml-2 ">
+          <div class="text-yellow-500">⭐ 4.5</div>
+          <h3 class="text-text-primary font-semibold mt-2 text-base ">Onion 1 KG</h3>
+          <p class="text-text-primary text-base ">$39.99</p>
+          
+         </div>
+  
+      </div>
+
+      <div class="bg-white rounded-lg  p-4 w-32 lg:w-64  lg:h-28 flex">
+        <div>
+          <img src="image/Group 16.png" alt=" " class="w-full">
+        </div>
+         <div class="ml-2 ">
+          <div class="text-yellow-500">⭐ 4.5</div>
+          <h3 class="text-text-primary font-semibold mt-2 text-base ">Onion 1 KG</h3>
+          <p class="text-text-primary text-base ">$39.99</p>
+          
+         </div>
+  
+      </div>
+
+      <div class="bg-white rounded-lg  p-4 w-32 lg:w-64  lg:h-28 flex">
+        <div>
+          <img src="image/Group 16.png" alt=" " class="w-full">
+        </div>
+         <div class="ml-2 ">
+          <div class="text-yellow-500">⭐ 4.5</div>
+          <h3 class="text-text-primary font-semibold mt-2 text-base ">Onion 1 KG</h3>
+          <p class="text-text-primary text-base ">$39.99</p>
+          
+         </div>
+  
+      </div>
+
+      <div class="bg-white rounded-lg  p-4 w-32 lg:w-64  lg:h-28 flex">
+        <div>
+          <img src="image/Group 16.png" alt=" " class="w-full">
+        </div>
+         <div class="ml-2 ">
+          <div class="text-yellow-500">⭐ 4.5</div>
+          <h3 class="text-text-primary font-semibold mt-2 text-base ">Onion 1 KG</h3>
+          <p class="text-text-primary text-base ">$39.99</p>
+          
+         </div>
+  
+      </div>
+
+      <div class="bg-white rounded-lg  p-4 w-32 lg:w-64  lg:h-28 flex">
+        <div>
+          <img src="image/Group 16.png" alt=" " class="w-full">
+        </div>
+         <div class="ml-2 ">
+          <div class="text-yellow-500">⭐ 4.5</div>
+          <h3 class="text-text-primary font-semibold mt-2 text-base ">Onion 1 KG</h3>
+          <p class="text-text-primary text-base ">$39.99</p>
+          
+         </div>
+  
+      </div>
+
+      <div class="bg-white rounded-lg  p-4 w-32 lg:w-64  lg:h-28 flex">
+        <div>
+          <img src="image/Group 16.png" alt=" " class="w-full">
+        </div>
+         <div class="ml-2 ">
+          <div class="text-yellow-500">⭐ 4.5</div>
+          <h3 class="text-text-primary font-semibold mt-2 text-base ">Onion 1 KG</h3>
+          <p class="text-text-primary text-base ">$39.99</p>
+          
+         </div>
+  
+      </div>
+
+      <div class="bg-white rounded-lg  p-4 w-32 lg:w-64  lg:h-28 flex">
+        <div>
+          <img src="image/Group 16.png" alt=" " class="w-full">
+        </div>
+         <div class="ml-2 ">
+          <div class="text-yellow-500">⭐ 4.5</div>
+          <h3 class="text-text-primary font-semibold mt-2 text-base ">Onion 1 KG</h3>
+          <p class="text-text-primary text-base ">$39.99</p>
+          
+         </div>
+  
+      </div>
+
+      <div class="bg-white rounded-lg  p-4 w-32 lg:w-64  lg:h-28 flex">
+        <div>
+          <img src="image/Group 16.png" alt=" " class="contain">
+        </div>
+         <div class="ml-2 ">
+          <div class="text-yellow-500">⭐ 4.5</div>
+          <h3 class="text-text-primary font-semibold mt-2 text-base ">Onion 1 KG</h3>
+          <p class="text-text-primary text-base ">$39.99</p>
+          
+         </div>
+  
+      </div>
+  
+      
+  
+
+
+
+
+
+  </div>
+</section>
+
+
+
+
+
+    </main>
+  
+    
+</body>
+</html>
